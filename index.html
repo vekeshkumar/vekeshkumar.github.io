@@ -1,101 +1,438 @@
 <!DOCTYPE html>
-<html>
-    <header>
-        <title>
-            WELCOME | BIENVENUE  TO MY PORTFOLIO PAGE - VKD
-        </title>
-        <link rel="stylesheet" type="text/css" href="main.css"/>
-       <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'> 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-        <!-- CSS only -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA==" crossorigin="anonymous" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-    </header>
-    <body class="portfolio-body">
-        <!-- SIDE BAR -->
+<html lang="en">
 
-        <!-- Main Content -->
-            <!-- Top content -->
-                <!-- Round image in center -->
-                <!-- Analytics -->
-            <!-- EXPERIENCE -->
-            <!--EDUCATION-->
-            <!-- ACHIEVEMENTS -->
-            <!-- HOBBY -->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vekesh Kumar Dhayalan | Portfolio</title>
+	<link rel="stylesheet" href="tailwind.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
 
-        <nav class="nav-wrapper">
-            <ul>                
-                <li class="each-nav-value"><a>Professional </a></li>
-                <li class="each-nav-value"><a>Personal  </a></li>
-                <li class="each-nav-value"><a>Academics </a></li>
-                <li class="each-nav-value"><a>Achievements </a></li>
-                <li class="each-nav-value"><a>Contributions </a></li>
-                <li class="each-nav-value"><a>Hobbies </a></li>
-            </ul>
-        </nav>
-        <section class="main-section">
-            <button class="mdc-button foo-button">
-                <div class="mdc-button__ripple"></div>
-                <span class="mdc-button__label">Button</span>
-              </button>
-            <article>
-                    <h1>Hi, Welcome ... Let me help you in discovering me !!</h1>
-            </article>
-            <!-- Articles -->
-            <div class="portfolio-cards">
-                <!-- Initial popular card -->
-                <div class="article-card">
-                    <div class="article-card-header">
-                        My popular article
-                    </div>
-                    <p class="article-card-content">
-                        Trek to Kudrehmukh!!
-                    </p>
-                </div>
-                <div class="article-card">
-                    <div class="article-card-header">
-                       Trek in Canada
-                    </div>
-                    <p class="article-card-content">
-                        Trek to Hautes Gorges River Malabie!!
-                    </p>
-                </div>
-                <div class="article-card">
-                    <div class="article-card-header">
-                        First Trip in Canada
-                    </div>
-                    <p class="article-card-content">
-                        Montreal- Quebec City - Ottawa - Montreal
-                    </p>
-                </div>
-                <!-- Mini cards -->
-            </div>
-        </section>       
+<body class="bg-body text-white font-poppins pb-12">
+	<!-- Header -->
+	<header class="py-6">
+		<div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<!-- <div class="text-lg font-bold">Vekesh Kumar</div> -->
+			<div class="hidden md:flex space-x-12 items-center">
+				<a href="#" class="text-selected-text">Home</a>
+				<a href="#about">About</a>
+				<a href="#experience">Experience</a>
+				<a href="#skills">Skills</a>
+				<a href="#projects">Projects</a>
+				<a href="https://vekeshkumar.wordpress.com" target="_blank">Blog</a>
+				<a href="#hobbies">Hobbies</a>
+				<a href="#hire"><button class="px-6 py-2 bg-theme font-bold"> <svg class="w-4 h-4 inline-flex" fill="" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path></svg> Hire me</button></a>
+				<a class="px-6 py-2 bg-theme font-bold" href="https://drive.google.com/file/d/1bFPULveG-F0WccMalJfvR10iaeIN2NCB/view?usp=sharing"
+					target="_blank">  <svg class="w-4 h-4 inline-flex " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 9.5A3.5 3.5 0 005.5 13H9v2.586l-1.293-1.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 15.586V13h2.5a4.5 4.5 0 10-.616-8.958 4.002 4.002 0 10-7.753 1.977A3.5 3.5 0 002 9.5zm9 3.5H9V8a1 1 0 012 0v5z" clip-rule="evenodd"></path></svg> <span>Resume</span></a>
+			</div>
+			<div class="md:hidden">
+				<svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path
+						d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z"
+						fill="white" />
+				</svg>
+			</div>
+		</div>
+	</header>
 
-        <footer class="portfolio-footer">
-            Feel free to contact me if you want to avail me a job | Converse | Travel | Disqus | Share feelings
-        </footer>
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+	<!-- Landing Section -->
+	<div class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+		<div class="flex flex-wrap md:flex-nowrap">
+			<!-- Navigation side -->
+			<nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
+				<div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+					<a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
+						<span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
+					</a>
+					<a href="#about"	class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
+						<span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">About</span>
+					</a>
+					<a href="#experience" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+						<span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Experience</span>
+					</a>
+					<a href="#skills" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+						<span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Skills</span>
+					</a>
+					<a href="#projects" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+						<span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Projects</span>
+					</a>
+					<a href="#hire" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+						<span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Contact</span>
+					</a>
+				</div>
+			</nav>
+			<!-- Introduction -->
+			<div class="flex flex-wrap lg:ml-20 justify-center md:justify-start">
+				<div class="name-txt">
+					<h1 class="text-5xl md:text-6xl lg:text-7xl text-center md:text-left">VEKESH KUMAR DHAYALAN<span class="bg-blue-100 text-green-500 text-lg font-semibold inline-flex items-center p-1.5 rounded-full dark:bg-blue-200 dark:text-blue-800">
+						<svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+					  </span></h1>
+				</div>
+				<div class=" text-center ">
+					<h2 class=" text-xl md:text-xl lg:text-2xl md:text-left">
+						<span class="txt-code text-gray-400">
+							< <span class="text-blue-500">FULL STACK DEVELOPER </span>/>..
+						</span>
+						<h3 class="txt-comment text-green-500"> /* Passionate and curious to learn and develop applications &#128151;
+							&#9749; */</h3>
+				</div>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+				<div class="w-full flex justify-center md:justify-start">
+					<a class="px-8 py-4 bg-theme text-white  mt-12 mr-4 flex items-center space-x-3"
+						href="https://www.linkedin.com/in/vekeshkumar/" target="_blank">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+							<path
+								d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+								fill="white" />
+						</svg>
+						<span>Github</span>
+					</a>
+					<a class="px-8 py-4 bg-theme text-white  mt-12  mr-4 flex items-center space-x-3"
+						href="https://www.linkedin.com/in/vekeshkumar/" target="_blank">
+
+						<svg width="24" height="24" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z"
+								fill="white" />
+						</svg>
+						<span>Linkedin</span>
+					</a>
+
+				</div>
+			</div>
+			<!-- <img src="img/code-bg.jpg" alt="Background" class="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1">  -->
+		</div>
+	</div>
+	<!-- About Me -->
+	<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+		<section class="w-full">
+			<h2 id="about" class="secondary-title">About Me</h2>
+			<div class="mt-4">
+				<div class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+					<img class="object-cover w-full h-full rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="./img/pic.jpg" alt="Profile pic">
+					<div class="flex flex-col justify-between p-4 leading-normal">
+						<h5 class="mb-2 text-2xl font-bold tracking-tight  text-gray-900 dark:text-white">Hey , Just take few mins to know about me  &#128515;</h5>
+						<p class="mb-3 font-normal text-gray-700  dark:text-gray-400"> I recently graduated from Concordia University with a master’s degree in Applied Computer Science. I am looking to get a taste of the local IT work culture in Canada and gain valuable experience through this job opportunity.
+							<br>
+							I have 3.5 years of industrial experience prior to joining my masters, of which I worked for 2 years as a front-end developer (Angular) and 1.5 years as a full stack developer having Java Spring Framework 4.2 as the backend technology at Tata Consultancy Services, a Multi-National IT Services Company in Chennai, India. During my tenure, I was responsible for end-to-end software development, maintenance, and production support. My technical acumen is complemented by interpersonal skills which I showcased during my various business meetings with stakeholders and product owners. And was instrumental in driving various critical activities involving stakeholders and this further honed my organizational and time-management skills. 
+							<br>As a master’s student, who is always eager to leverage the enthusiasm for Software Engineering and dedicated to providing best-in-class service.
+						</p>
+			<ul class="my-4 space-y-3">
+				<h3 class="mb-3 text-base font-semibold text-gray-900 lg:text-xl dark:text-white">
+					My Interests & Hobbies
+				</h3>
+            <li>
+                <div class="flex items-center p-3 text-base font-bold text-gray-900 bg-gray-50 rounded-lg hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera2" viewBox="0 0 16 16">
+						<path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4z"/>
+						<path d="M12.318 3h2.015C15.253 3 16 3.746 16 4.667v6.666c0 .92-.746 1.667-1.667 1.667h-2.015A5.97 5.97 0 0 1 9 14a5.972 5.972 0 0 1-3.318-1H1.667C.747 13 0 12.254 0 11.333V4.667C0 3.747.746 3 1.667 3H2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1h.682A5.97 5.97 0 0 1 9 2c1.227 0 2.367.368 3.318 1zM2 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0zM14 8A5 5 0 1 0 4 8a5 5 0 0 0 10 0z"/>
+					  </svg>
+                    <span class="flex-1 ml-3 whitespace-nowrap">Photography</span>
+                    <span class="inline-flex items-center justify-center px-2 py-0.5 ml-3 text-xs font-medium text-gray-500 bg-gray-200 rounded dark:bg-gray-700 dark:text-gray-400"></span>
+					</div>
+            </li>
+            <li>
+                <div class="flex items-center p-3 text-base font-bold text-gray-900 bg-gray-50 rounded-lg hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bicycle" viewBox="0 0 16 16">
+						<path d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057 9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z"/>
+					  </svg>
+                    <span class="flex-1 ml-3 whitespace-nowrap">Biking</span>
+					</div>
+            </li>
+            <li>
+                <div class="flex items-center p-3 text-base font-bold text-gray-900 bg-gray-50 rounded-lg hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-egg-fried" viewBox="0 0 16 16">
+						<path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+						<path d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z"/>
+					  </svg>
+                    <span class="flex-1 ml-3 whitespace-nowrap">Foodie</span>
+					</div>
+            </li>
+            <li>
+                <div class="flex items-center p-3 text-base font-bold text-gray-900 bg-gray-50 rounded-lg hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-player" viewBox="0 0 16 16">
+						<path d="M4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V3zm1 0v3h6V3H5zm3 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+						<path d="M11 11a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+						<path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H4z"/>
+					  </svg>  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+						<path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0v6h8V1H4zm8 8H4v6h8V9zM1 1v2h2V1H1zm2 3H1v2h2V4zM1 7v2h2V7H1zm2 3H1v2h2v-2zm-2 3v2h2v-2H1zM15 1h-2v2h2V1zm-2 3v2h2V4h-2zm2 3h-2v2h2V7zm-2 3v2h2v-2h-2zm2 3h-2v2h2v-2z"/>
+					  </svg>
+                    <span class="flex-1 ml-3 whitespace-nowrap">Movie Buff & Music Maniac</span>
+					</div>
+            </li>
+        </ul>
+        <div>
+            <div class="inline-flex items-center text-xs font-normal text-gray-500 hover:underline dark:text-gray-400">
+                <svg class="mr-2 w-3 h-3" aria-hidden="true" focusable="false" data-prefix="far" data-icon="question-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 448c-110.532 0-200-89.431-200-200 0-110.495 89.472-200 200-200 110.491 0 200 89.471 200 200 0 110.53-89.431 200-200 200zm107.244-255.2c0 67.052-72.421 68.084-72.421 92.863V300c0 6.627-5.373 12-12 12h-45.647c-6.627 0-12-5.373-12-12v-8.659c0-35.745 27.1-50.034 47.579-61.516 17.561-9.845 28.324-16.541 28.324-29.579 0-17.246-21.999-28.693-39.784-28.693-23.189 0-33.894 10.977-48.942 29.969-4.057 5.12-11.46 6.071-16.666 2.124l-27.824-21.098c-5.107-3.872-6.251-11.066-2.644-16.363C184.846 131.491 214.94 112 261.794 112c49.071 0 101.45 38.304 101.45 88.8zM298 368c0 23.159-18.841 42-42 42s-42-18.841-42-42 18.841-42 42-42 42 18.841 42 42z"></path></svg>
+                 and much more !!!!</a>
+        </div>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+	</div>
+	<!-- Experience -->
+	<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+		<section class="w-full">
+			<h2 id="experience" class="secondary-title">Experience</h2>
+			<p class="section-paragraph">I’ve had the pleasure of working with multiple Fortune 500 companies, designing
+				and implementing both frontend and backend.</p>
+			<ol class="relative border-l border-gray-200 dark:border-gray-700">
+				<li class="mb-10 ml-6">
+					<span
+						class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+						<svg class="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20"
+							xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd"
+								d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+								clip-rule="evenodd"></path>
+						</svg>
+					</span>
+					<h3 class="flex items-center mb-1 text-lg font-semibold  dark:text-white"> IT ANALYST<span
+							class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">4
+							Yrs</span>
+					</h3>
+					<h3 class="flex items-center mb-1 text-lg  dark:text-white"> Tata Consultancy Services, Chennai, IN
+					</h3>
+
+					<time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June,
+						2016 - December, 2019</time>
+					<p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Brainstormed requirements,
+						owned, developed, and maintained various key applications of the multi-
+						application platform in an agile working environment.
+						Developed various reusable and scalable UI components in Angular JS.
+						oeveloped RESTful APIs using Spring, Hibernate, PostgreSQL
+						Volunteered as the Deployment SPOC a nd coordinated with 200+ stake holders and 10+ teams and
+						orchestrated 20+ production deployments in 2 years (biweekly releases).</p>
+					<!-- <a href="#"
+						class="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"><svg
+							class="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+							xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd"
+								d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z"
+								clip-rule="evenodd"></path>
+						</svg> Download ZIP</a> -->
+				</li>
+				<li class="mb-10 ml-6">
+					<span
+						class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+						<svg class="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20"
+							xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd"
+								d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+								clip-rule="evenodd"></path>
+						</svg>
+					</span>
+					<h3 class="mb-1 text-lg font-semibold ark:text-white">MACHINE LEARNING INTERN</h3>
+					<h3 class="flex items-center mb-1 text-lg   dark:text-white"> Newgen Knowledge Works, Chennai, IN
+					</h3>
+					<time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Dec 2015 – Apr 2016</time>
+					<p class="text-base font-normal text-gray-500 dark:text-gray-400">Developed an app to validate references and citations for journals, articles, research papers which are
+						yet to published.
+						For the app’s core, I developed a machine learning model by using Parscit package, which uses
+						probabilistic mathematical model CRF to extract citations and references of a journal or article.
+						</p>
+				</li>
+			</ol>
+			<!-- Clients -->
+
+
+		</section>
+
+
+
+	</div>
+
+	<!-- Skills -->
+	<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+		<section class="w-full">
+			<h2 id="skills" class="secondary-title">Skills</h2>
+			<!-- Front End -->
+			<div class="flex justify-between mb-1 mt-4">
+				<span class="text-base font-medium text-white-100 dark:text-white">Angular, HTML, CSS , JavaScript</span>
+				<span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Proficient</span>
+			  </div>
+			  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+				<div class="bg-blue-600 h-2.5 rounded-full" style="width: 95%"></div>
+			  </div>
+			<!-- Backend -->
+			<div class="flex justify-between mb-1 mt-4">
+				<span class="text-base font-medium text-white-100 dark:text-white">Java, Spring Boot , Spring Microservices, Node.js</span>
+				<span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Expert</span>
+			  </div>
+			  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+				<div class="bg-blue-600 h-2.5 rounded-full" style="width: 95%"></div>
+			  </div>
+			  <!-- DB -->
+			  <div class="flex justify-between mb-1 mt-4">
+				<span class="text-base font-medium text-white-100 dark:text-white">MongoDB,PL/SQL,  Oracle, MySQL, </span>
+				<span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Good</span>
+			  </div>
+			  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+				<div class="bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+			  </div>
+			  <!-- Version Control -->
+			  <div class="flex justify-between mb-1 mt-4">
+				<span class="text-base font-medium text-white-100 dark:text-white">Git, SVN</span>
+				<span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Good</span>
+			  </div>
+			  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+				<div class="bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+			  </div>
+			  <!-- Cloud -->
+			  <div class="flex justify-between mb-1 mt-4">
+				<span class="text-base font-medium text-white-100 dark:text-white">AWS, Azure </span>
+				<span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Good</span>
+			  </div>
+			  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+				<div class="bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+			  </div>
+			  <!-- Tools -->
+			  <div class="flex justify-between mb-1 mt-4">
+				<span class="text-base font-medium text-white-100 dark:text-white">Burp Suite, OWASP ZAP, Checkmarx, SONAR,PostMan</span>
+				<span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Good</span>
+			  </div>
+			  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+				<div class="bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+			  </div>
+		</section>
+	</div>
+
+
+	<!-- Projects -->
+	<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+		<section class="w-full">
+			<h2 id="projects" class="secondary-title">My Projects</h2>
+			<p class="section-paragraph">I’ve had the pleasure of working with multiple technologies and framework
+				during my undergraduate and post-graduate programs in designing and developing variety of applications
+			</p>
+
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+
+				<div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+					<!-- <a href="#">
+						<img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+					</a> -->
+					<div class="p-5">
+						<a href="https://github.com/vekeshkumar/course-app-spring" target="_blank">
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Chat Application </h5>
+						</a>
+						<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">This application is implemented using Node and socket.io</p>						
+					</div>
+				</div>
+				<div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+					<!-- <a href="#">
+						<img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+					</a> -->
+					<div class="p-5">
+						<a href="https://github.com/vekeshkumar/course-app-spring" target="_blank">
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Udemy Course App Replica!</h5>
+						</a>
+						<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">This project is implemented using Spring Microservices and also has api documentation dashboard</p>						
+					</div>
+				</div>
+				<div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+					<!-- <a href="#">
+						<img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+					</a> -->
+					<div class="p-5">
+						<a href="https://github.com/vekeshkumar/course-app-spring" target="_blank">
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Weather App in Node</h5>
+						</a>
+						<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">This project is implemented using Spring Microservices and also has api documentation dashboard</p>						
+					</div>
+				</div>
+				<div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+					<!-- <a href="#">
+						<img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+					</a> -->
+					<div class="p-5">
+						<a href="https://github.com/vekeshkumar/course-app-spring" target="_blank">
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Face Mask Detector using AI and Convolutional Neural Network!</h5>
+						</a>
+						<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">This project is implemented using Spring Microservices and also has api documentation dashboard</p>						
+					</div>
+				</div>
+				<div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+					<!-- <a href="#">
+						<img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+					</a> -->
+					<div class="p-5">
+						<a href="https://github.com/vekeshkumar/course-app-spring" target="_blank">
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Certificate Generation Application</h5>
+						</a>
+						<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">- The application was deployed in VIT university portal for generating 10,000+ certificates
+							and emailing to participants of various events in VIT University during 2017-18.</p>						
+					</div>
+				</div>
+				<div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+					<!-- <a href="#">
+						<img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+					</a> -->
+					<div class="p-5">
+						<a href="https://github.com/vekeshkumar/course-app-spring" target="_blank">
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Real-time Analytics, Sentiment Analysis on Twitter Data</h5>
+						</a>
+						<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Sentiment Analysis in real-time using Apache Storm and Twitter 4j.</p>						
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+	<!-- Hire me -->
+	<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+		<section class="w-full">
+			<h2 id="hire" class="secondary-title">Hire me</h2>
+			<p class="section-paragraph">Feel free to contact me any time, through any method below.</p>
+
+			<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+				<div class="space-y-12">
+					<div>
+						<label class="text-white block mb-6 text-xl font-bold">Name</label>
+						<input class="w-full border border-input-border bg-input px-4 py-4">
+					</div>
+					<div>
+						<label class="text-white block mb-6 text-xl font-bold">Email</label>
+						<input type="email" class="w-full border border-input-border bg-input px-4 py-4">
+					</div>
+					<div>
+						<label class="text-white block mb-6 text-xl font-bold">Message</label>
+						<textarea type="email"
+							class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
+					</div>
+					<button class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
+				</div>
+
+				<div class="mt-12">
+					<!-- Contact info -->
+					<p class="text-secondary">+1-514-834-8889 </p>
+					<a href="mailto:vekeshkumar.d@gmail.com"
+						class="text-secondary underline mt-3 block">vekeshkumar.d@gmail.com</a>
+
+					<!-- Socials -->
+					<div class="flex mt-20 space-x-6">
+						<!-- LinkedIn -->
+						<a href="https://www.linkedin.com/in/vekeshkumar/" target="_blank">
+							<svg class="w-8 h-8 lg:w-12 lg:h-12" width="50" height="50" viewBox="0 0 50 50" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z"
+									fill="white" />
+							</svg>
+						</a>
+
+		</section>
+	</div>
+
+	<script src="main.js"></script>
+
+</body>
+
 </html>
-
-<!-- 
-    <svg xmlns="http://www.w3.org/2000/svg">
-    <filter id="filter">
-        <feTurbulence baseFrequency="0.2"/>
-        <feColorMatrix values="0 0 0 9 -4
-                               0 0 0 9 -4
-                               0 0 0 9 -4
-                               0 0 0 0 1"/>
-    </filter>
-    <rect width="100%" height="100%" filter="url(#filter)"/>
-</svg>
- -->
-
-
-
