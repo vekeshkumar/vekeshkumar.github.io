@@ -1,5 +1,5 @@
 name: Deploy Portfolio
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+run-name: Deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
 on: 
   push :
     branches:
