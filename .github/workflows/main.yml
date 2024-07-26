@@ -1,4 +1,4 @@
-name: Deploy to Portfolio
+name: Depl
 run-name: ${{ github.actor }} Testing
 on: 
   push :
